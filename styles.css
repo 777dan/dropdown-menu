@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+}
+
+p {
+  font-size: 32px;
+  margin-bottom: 128px;
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.dropdown-toggle {
+  padding: 10px;
+  background-color: #139f46;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.arrow {
+  float: right;
+}
+
+.dropdown-fixed {
+  position: fixed;
+  top: 0;
+}
